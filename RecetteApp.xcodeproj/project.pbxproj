@@ -74,6 +74,11 @@
 		59E47B9E2ED0D8420068C87F = {
 			isa = PBXGroup;
 			children = (
+				59E47BD82ED0DA8C0068C87F /* repository */,
+				59E47BD62ED0DA8C0068C87F /* resources */,
+				59E47BD72ED0DA8C0068C87F /* view */,
+				59E47BD52ED0DA8C0068C87F /* viewmodel */,
+				59E47BD42ED0DA590068C87F /* data */,
 				59E47BA92ED0D8420068C87F /* RecetteApp */,
 				59E47BBA2ED0D8440068C87F /* RecetteAppTests */,
 				59E47BC42ED0D8440068C87F /* RecetteAppUITests */,
@@ -125,6 +130,41 @@
 				59E47BC72ED0D8440068C87F /* RecetteAppUITestsLaunchTests.swift */,
 			);
 			path = RecetteAppUITests;
+			sourceTree = "<group>";
+		};
+		59E47BD42ED0DA590068C87F /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		59E47BD52ED0DA8C0068C87F /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		59E47BD62ED0DA8C0068C87F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		59E47BD72ED0DA8C0068C87F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		59E47BD82ED0DA8C0068C87F /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
