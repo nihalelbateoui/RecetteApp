@@ -11,7 +11,7 @@ import SwiftUI
 struct RecetteAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListeRecettesView()   // ← la vraie vue principale
         }
     }
 }
