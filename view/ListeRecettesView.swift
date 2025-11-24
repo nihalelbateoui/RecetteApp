@@ -13,12 +13,19 @@ struct ListeRecettesView: View {
 
     var body: some View {
         NavigationStack {
-            List(repository.recettes) { recette in
-                NavigationLink(destination: DetailRecetteView(recette: recette)) {
-                    RecetteLigneView(recette: recette)
+            List($repository.recettes.indices, id: \.self) { index in
+                
+                NavigationLink {
+                    DetailRecetteView(recette: $repository.recettes[index])
+                } label: {
+                    RecetteLigneView(recette: repository.recettes[index])
                 }
             }
             .navigationTitle("Recettes")
         }
     }
+}
+
+#Preview {
+    ListeRecettesView()
 }

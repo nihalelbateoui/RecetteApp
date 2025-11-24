@@ -14,6 +14,16 @@
 		59E47BBC2ED0D8440068C87F /* RecetteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BBB2ED0D8440068C87F /* RecetteAppTests.swift */; };
 		59E47BC62ED0D8440068C87F /* RecetteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BC52ED0D8440068C87F /* RecetteAppUITests.swift */; };
 		59E47BC82ED0D8440068C87F /* RecetteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BC72ED0D8440068C87F /* RecetteAppUITestsLaunchTests.swift */; };
+		59E47BDA2ED0DAF50068C87F /* Recette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BD92ED0DAF50068C87F /* Recette.swift */; };
+		59E47BDC2ED0DB1C0068C87F /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BDB2ED0DB1C0068C87F /* Ingredient.swift */; };
+		59E47BDE2ED0DB630068C87F /* RecetteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BDD2ED0DB630068C87F /* RecetteRepository.swift */; };
+		59E47BE02ED0DB850068C87F /* RecetteRepositoryDummyImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BDF2ED0DB850068C87F /* RecetteRepositoryDummyImpl.swift */; };
+		59E47BE42ED0DBD50068C87F /* Injecteur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BE32ED0DBD50068C87F /* Injecteur.swift */; };
+		59E47BE62ED0DC9E0068C87F /* RecetteLigneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BE52ED0DC9E0068C87F /* RecetteLigneView.swift */; };
+		59E47BE82ED0DCC00068C87F /* ListeRecettesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BE72ED0DCC00068C87F /* ListeRecettesView.swift */; };
+		59E47BEA2ED0DD090068C87F /* DetailRecetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BE92ED0DD090068C87F /* DetailRecetteView.swift */; };
+		59E47BEC2ED0DD540068C87F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BEB2ED0DD540068C87F /* ImagePicker.swift */; };
+		59E47BEE2ED0DD9C0068C87F /* EditRecetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E47BED2ED0DD9C0068C87F /* EditRecetteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		59E47BC12ED0D8440068C87F /* RecetteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecetteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E47BC52ED0D8440068C87F /* RecetteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteAppUITests.swift; sourceTree = "<group>"; };
 		59E47BC72ED0D8440068C87F /* RecetteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59E47BD92ED0DAF50068C87F /* Recette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recette.swift; sourceTree = "<group>"; };
+		59E47BDB2ED0DB1C0068C87F /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		59E47BDD2ED0DB630068C87F /* RecetteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteRepository.swift; sourceTree = "<group>"; };
+		59E47BDF2ED0DB850068C87F /* RecetteRepositoryDummyImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteRepositoryDummyImpl.swift; sourceTree = "<group>"; };
+		59E47BE32ED0DBD50068C87F /* Injecteur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injecteur.swift; sourceTree = "<group>"; };
+		59E47BE52ED0DC9E0068C87F /* RecetteLigneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetteLigneView.swift; sourceTree = "<group>"; };
+		59E47BE72ED0DCC00068C87F /* ListeRecettesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeRecettesView.swift; sourceTree = "<group>"; };
+		59E47BE92ED0DD090068C87F /* DetailRecetteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRecetteView.swift; sourceTree = "<group>"; };
+		59E47BEB2ED0DD540068C87F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		59E47BED2ED0DD9C0068C87F /* EditRecetteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecetteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,8 @@
 				59E47BAC2ED0D8420068C87F /* ContentView.swift */,
 				59E47BAE2ED0D8430068C87F /* Assets.xcassets */,
 				59E47BB02ED0D8430068C87F /* Preview Content */,
+				59E47BE32ED0DBD50068C87F /* Injecteur.swift */,
+				59E47BEB2ED0DD540068C87F /* ImagePicker.swift */,
 			);
 			path = RecetteApp;
 			sourceTree = "<group>";
@@ -135,6 +157,8 @@
 		59E47BD42ED0DA590068C87F /* data */ = {
 			isa = PBXGroup;
 			children = (
+				59E47BD92ED0DAF50068C87F /* Recette.swift */,
+				59E47BDB2ED0DB1C0068C87F /* Ingredient.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -156,6 +180,10 @@
 		59E47BD72ED0DA8C0068C87F /* view */ = {
 			isa = PBXGroup;
 			children = (
+				59E47BE52ED0DC9E0068C87F /* RecetteLigneView.swift */,
+				59E47BE72ED0DCC00068C87F /* ListeRecettesView.swift */,
+				59E47BE92ED0DD090068C87F /* DetailRecetteView.swift */,
+				59E47BED2ED0DD9C0068C87F /* EditRecetteView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -163,6 +191,8 @@
 		59E47BD82ED0DA8C0068C87F /* repository */ = {
 			isa = PBXGroup;
 			children = (
+				59E47BDD2ED0DB630068C87F /* RecetteRepository.swift */,
+				59E47BDF2ED0DB850068C87F /* RecetteRepositoryDummyImpl.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -297,8 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E47BDC2ED0DB1C0068C87F /* Ingredient.swift in Sources */,
 				59E47BAD2ED0D8420068C87F /* ContentView.swift in Sources */,
+				59E47BE02ED0DB850068C87F /* RecetteRepositoryDummyImpl.swift in Sources */,
 				59E47BAB2ED0D8420068C87F /* RecetteAppApp.swift in Sources */,
+				59E47BDA2ED0DAF50068C87F /* Recette.swift in Sources */,
+				59E47BDE2ED0DB630068C87F /* RecetteRepository.swift in Sources */,
+				59E47BEA2ED0DD090068C87F /* DetailRecetteView.swift in Sources */,
+				59E47BEC2ED0DD540068C87F /* ImagePicker.swift in Sources */,
+				59E47BE82ED0DCC00068C87F /* ListeRecettesView.swift in Sources */,
+				59E47BEE2ED0DD9C0068C87F /* EditRecetteView.swift in Sources */,
+				59E47BE42ED0DBD50068C87F /* Injecteur.swift in Sources */,
+				59E47BE62ED0DC9E0068C87F /* RecetteLigneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

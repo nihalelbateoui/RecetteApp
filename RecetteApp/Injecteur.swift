@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+class Injecteur {
+    static let recetteRepository: any RecetteRepository = RecetteRepositoryDummyImpl()
+}
