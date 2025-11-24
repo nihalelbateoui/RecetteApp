@@ -39,8 +39,6 @@ L’application repose sur le **Repository Pattern**, avec un injecteur pour lie
 
 ## Structure de projet
 
-## Structure de projet
-
 ```
 RecetteApp/
  ┣ data/
