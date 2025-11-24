@@ -15,7 +15,7 @@ Application iOS permettant de gérer des recettes de cuisine, réalisée dans le
   - portions
   - ingrédients (édition + suppression + ajout)
 - Ajustement automatique des quantités selon les portions
-- Architecture conforme au cours :
+- Architecture du projet :
   - `data/`
   - `repository/`
   - `view/`
