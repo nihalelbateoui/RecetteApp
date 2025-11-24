@@ -30,10 +30,6 @@ L’application repose sur le **Repository Pattern**, avec un injecteur pour lie
 - `RecetteRepositoryDummyImpl` : données statiques
 - `Injecteur` : fournit une instance du repository
 
-## Tests (optionnel)
-
-L’ajout d’un test automatique simple peut être réalisé dans `RecetteAppTests`.
-
 ## Aperçu
 
 - Liste des recettes avec image, nom et temps
