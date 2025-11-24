@@ -39,6 +39,9 @@ L’application repose sur le **Repository Pattern**, avec un injecteur pour lie
 
 ## Structure de projet
 
+## Structure de projet
+
+```
 RecetteApp/
  ┣ data/
  ┃ ┣ Ingredient.swift
@@ -55,6 +58,8 @@ RecetteApp/
  ┣ resources/
  ┣ Injecteur.swift
  ┗ RecetteAppApp.swift
+```
+
  
 ## Installation et exécution en local
 
@@ -68,6 +73,7 @@ git clone https://github.com/nihalelbateoui/RecetteApp.git
 
 ### 3. Ouvrir le projet
 cd RecetteApp
+
 open RecetteApp.xcodeproj
 
 ### 4. Lancer l’application
